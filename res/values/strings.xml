@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SportsTracker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_tracking_display">TrackingDisplay</string>
+    <string name="string_ski">Skiing</string>
+    <string name="string_run">Running</string>
+    <string name="string_walk">Walking</string>
+    <string name="string_bike">Bicycling</string>
+    <string name="timer_start">Start</string>
+    <string name="timer_pause">Pause</string>
+    <string name="timer_stop">Stop</string>
+    <string name="main_header">Select your activity</string>
+    <string name="button_archive">Saved exercises</string>
+    <string name="timer_elapsed">Elapsed time</string>
+    <string name="timer_current_speed">Current speed</string>
+    <string name="timer_distance">Distance</string>
+    <string name="current_speed">00 km/h</string>
+    <string name="distance">00 m</string>
+    <string name="timer_finish">Finish</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_archive">ArchiveActivity</string>
+
+</resources>

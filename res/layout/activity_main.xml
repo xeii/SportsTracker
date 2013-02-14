@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/mainViewHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="@string/main_header"
+        android:textSize="@dimen/HeaderFont" />
+	
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="90dp"
+	    android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageWalk"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:src="@android:drawable/ic_menu_crop" />
+
+        <Button
+            android:id="@+id/walk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openTracking"
+            android:tag="walk"
+            android:text="@string/string_walk"
+            android:width="150dp" />
+        
+	</LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="140dp"
+	    android:orientation="horizontal" >
+        
+   		<ImageView
+	        android:id="@+id/imageRun"
+	        android:layout_width="48dp"
+	        android:layout_height="match_parent"
+	        android:src="@android:drawable/ic_menu_report_image" />
+       
+   		<Button
+   		    android:id="@+id/run"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:onClick="openTracking"
+   		    android:tag="run"
+   		    android:text="@string/string_run"
+   		    android:width="150dp" />
+        
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="190dp"
+	    android:orientation="horizontal" >
+   		
+        <ImageView
+	        android:id="@+id/imageSki"
+	        android:layout_width="48dp"
+	        android:layout_height="match_parent"
+	        android:src="@android:drawable/ic_menu_share" />
+        
+        <Button
+            android:id="@+id/ski"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openTracking"
+            android:tag="ski"
+            android:text="@string/string_ski"
+            android:width="150dp" />
+   	
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="240dp"
+	    android:orientation="horizontal" >
+        
+        <ImageView
+	        android:id="@+id/imageBike"
+	        android:layout_width="48dp"
+	        android:layout_height="match_parent"
+	        android:src="@android:drawable/ic_menu_mapmode" />
+        
+        <Button
+            android:id="@+id/bike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openTracking"
+            android:tag="bike"
+            android:text="@string/string_bike"
+            android:width="150dp" />
+        
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/archiveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:onClick="openArchive"
+        android:text="@string/button_archive" />
+
+</RelativeLayout>
